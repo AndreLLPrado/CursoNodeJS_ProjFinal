@@ -1,0 +1,25 @@
+<div class="jumbotron">
+    <h1 class="display-4">Bem-vindo ao Blog do Node</h1>
+    <p class="lead">Texto 1</p>
+    <hr class="mt-4">
+    <p>Texto 2</p>
+    <p class="lead">
+        <a href="/usuarios/registro" class="btn btn-primary btn-lg" role="button">Criar uma conta</a>
+    </p>
+</div>
+<hr>
+<h2>Postagens recentes:</h2>
+{{#each postagens}}
+    <div class="card mt-4">
+        <div class="card-body">
+            <h4>Título: {{titulo}}</h4>
+            <p>Descrição: {{descricao}}</p>
+            <a href="/postagem/{{slug}}"><button class="btn btn-success">Leia Mais</button></a>
+            <hr>
+            <small>Categoria: {{categoria.nome}}</small><br>
+            <small>Data: {{data}}</small>
+        </div>
+    </div>
+{{else}}
+    <p>Nenhuma postagem registrada</p>
+{{/each}}

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const { string } = require('xpress')
-const { date } = require('xpress/lib/string')
+const { string } = require('express')
+//const { date } = require('express/lib/string')
 const Schema = mongoose.Schema
 
 const Postagem = new Schema({

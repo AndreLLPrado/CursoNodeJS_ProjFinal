@@ -1,0 +1,12 @@
+sudo systemctl status mongod
+
+sudo systemctl stop mongod
+
+sudo systemctl start mongod
+
+sudo systemctl restart mongod
+
+//iniciar o mongo junto do server
+sudo systemctl disable mongod
+
+sudo systemctl enable mongod

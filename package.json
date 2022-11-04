@@ -16,8 +16,10 @@
     "express-handlebars": "^6.0.5",
     "express-session": "^1.17.2",
     "mongoose": "^6.3.1",
-    "nodemon": "^2.0.20",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

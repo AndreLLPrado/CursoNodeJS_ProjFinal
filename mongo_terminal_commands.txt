@@ -1,3 +1,4 @@
+//rodar o mongo
 sudo systemctl status mongod
 
 sudo systemctl stop mongod
